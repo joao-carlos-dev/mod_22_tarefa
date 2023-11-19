@@ -44,4 +44,19 @@
             text-align: justify;
         }
     }
+
+    @media screen and (min-width: 320px) and (max-width:820px) {
+        .container {
+            display: block;
+        }
+
+        &__image {
+            width: 100%;
+        }
+
+        &__details {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+    }
 }
